@@ -15,7 +15,7 @@ Header/footer are duplicated in every page — edit all pages if nav/contact cha
 2. Email: ashishgupta1350@gmail.com used everywhere — replace with the Invert Gmail/domain email (grep -r ashishgupta1350).
 3. Domain: canonical/og/sitemap assume https://invertdigital.in/ — change if different. Add assets/images/og-image.png (1200x630).
 4. GTM: uncomment snippet in each <head> and set the container ID. dataLayer events: generate_lead, click_call, click_whatsapp, view_case_study, calculator_use.
-5. Confirm RingMoney figures (99 installs / ₹3,000) and site-wide "1,500+ leads", "70% lower CPL", "15 months".
+5. Confirm fintech app figures (99 installs / ₹3,000) and site-wide "1,500+ leads", "70% lower CPL", "15 months".
 6. Case screenshots: export 1–2 result screenshots per case from the Drive docs into assets/cases/ (blur personal data) and add to dialogs.
 7. About photo: done (assets/images/ashish-gupta.jpg, 640x800, ~100 KB).
 8. Social links in footer are "#" placeholders (LinkedIn, Instagram).
@@ -26,3 +26,4 @@ Repo: https://github.com/ashishgupta1350/InvertDigitalMarketingAgency-Website (b
 Netlify site is connected via "Import from Git": no build command, publish directory `.`. Every push to `main` deploys.
 Git push works from this machine via Git Credential Manager (git at C:\Program Files\Git\cmd, add to PATH per shell).
 netlify.toml returns 404 for /project-notes/*, /serve.ps1 and /README.md on the live site.
+- Client names are hidden site-wide (descriptive labels + Delhi NCR). Keep it that way.
