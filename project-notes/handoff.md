@@ -23,7 +23,7 @@ Header/footer are duplicated in every page — edit all pages if nav/contact cha
 
 ## Deploy (Git → Netlify)
 Repo: https://github.com/ashishgupta1350/InvertDigitalMarketingAgency-Website (branch `main`).
-Netlify site is connected via "Import from Git": no build command, publish directory `.`. Every push to `main` deploys.
+Live: https://invertdigital-agency.netlify.app (Netlify project "invertdigital-agency", team "Ashish Gupta's team"). Connected via Import from Git: no build command, publish `.`. Every push to `main` deploys. Badge off. Form detection on; form "audit" active.
 Git push works from this machine via Git Credential Manager (git at C:\Program Files\Git\cmd, add to PATH per shell).
 netlify.toml returns 404 for /project-notes/*, /serve.ps1 and /README.md on the live site.
 - Client names are hidden site-wide (descriptive labels + Delhi NCR). Keep it that way.
