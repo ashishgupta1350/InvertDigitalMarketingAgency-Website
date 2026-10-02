@@ -4,3 +4,6 @@ desktop.ini
 .DS_Store
 .vscode/
 *.zip
+
+# Private: real client names (never commit)
+project-notes/client-name-mapping.md
