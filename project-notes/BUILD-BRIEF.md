@@ -10,7 +10,7 @@ Reference page: index.html (READ IT FULLY FIRST). Stylesheet: css/site.css (READ
 3. Use ONLY classes that exist in css/site.css. Do not add new CSS files. If you truly need a tiny tweak, use an inline style sparingly. Do NOT edit site.css, main.js or index.html.
 4. Fonts/colours/spacing come from site.css: eyebrow pill -> h1/h2 with an <em> italic accent phrase -> muted sub. Every section uses .section / .section-soft / .section-lavender alternation like Home.
 5. Real data only. Case-study numbers must match the plan file exactly (Sood & Sood, Alo Legal, Langma, Aggarwal College, TheSavvyCasa, RingMoney). Never invent stats, clients, testimonials or reviews. Platform facts (what LinkedIn Lead Gen Forms are etc.) are fine as general descriptions, no fabricated benchmarks.
-6. Contact: phone +91 99101 40614 (tel:+919910140614), WhatsApp https://wa.me/919910140614, email ashishgupta1350@gmail.com, location Faridabad, Delhi NCR.
+6. Contact: phone +91 99101 40614 (tel:+919910140614), WhatsApp https://wa.me/919910140614, email ashishgupta1350@gmail.com, location 86, D-14, Sector 8, Rohini, Delhi.
 7. Every page ends with the CTA band + Netlify form exactly like Home's #audit section (form name="audit", change hidden input name="page" value to the page slug, keep unique element ids per page).
 8. Tone: plain, confident, specific, Indian-business friendly; British/Indian spelling (optimise). No hype words ("revolutionary", "skyrocket"). No em-dash overuse.
 9. Copy-quality: each page must feel complete and premium — hero, 4–6 content sections, FAQ (4–6 platform-specific Qs), CTA.
