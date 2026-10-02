@@ -20,3 +20,9 @@ Header/footer are duplicated in every page — edit all pages if nav/contact cha
 7. About photo: done (assets/images/ashish-gupta.jpg, 640x800, ~100 KB).
 8. Social links in footer are "#" placeholders (LinkedIn, Instagram).
 9. Deploy zip: use System.IO.Compression.ZipFile with "/" entry names; never Compress-Archive. Exclude serve.ps1 and project-notes/.
+
+## Deploy (Git → Netlify)
+Repo: https://github.com/ashishgupta1350/InvertDigitalMarketingAgency-Website (branch `main`).
+Netlify site is connected via "Import from Git": no build command, publish directory `.`. Every push to `main` deploys.
+Git push works from this machine via Git Credential Manager (git at C:\Program Files\Git\cmd, add to PATH per shell).
+netlify.toml returns 404 for /project-notes/*, /serve.ps1 and /README.md on the live site.
